@@ -1,0 +1,58 @@
+
+/* task1 */
+* {
+    font-family: Areal;
+}
+.task1 {
+    position: relative;
+    overflow: hidden;
+}
+.inner {
+    width: 70%;
+    background-color: #e7e7e7;
+    margin: 0px auto;
+    padding: 20px 0 600px 20px;
+    font-size: 20px;
+    color: #000;
+}
+.link {
+    position: absolute;
+    right: 50px;
+    top: 10px;
+}
+.popup {
+    display: none;
+    width: 100%;
+    max-height: 100vh;
+    background-color: rgba(0,0,0,0.4);
+    overflow: auto;
+    position: fixed;
+    top: 0px;   
+}
+.popub-box {
+    margin: 40px auto 0px auto;
+    width: 500px;
+    height: 1000px;
+    padding: 10px;
+    background-color: #edecec;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #000;
+}
+
+/* task2 */
+.task2 {
+    padding: 20px; 
+}
+.title {
+    font-size: 20px;
+    padding: 40px 0 40px;
+    text-align: center;
+}
+.circle {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-right: 3px solid red;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
