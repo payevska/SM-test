@@ -56,3 +56,10 @@
     border-bottom-right-radius: 50px;
     border-top-right-radius: 50px;
 }
+
+.text {
+    margin: 0 auto;
+    text-align: justify;
+    text-indent: 20px;
+    width: 70%;
+}
