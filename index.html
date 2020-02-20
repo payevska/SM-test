@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>SM test</title>
+	<link rel="stylesheet" href="normalize.css">
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -38,10 +39,58 @@
 					Лучше подключать ссылку на внешний файл в &lt;head&gt; после тега &lt;title&gt;. Во внешнем файле может находиться большой код, если такой код разместить в теге &lt;head&gt; - это усложнит чтение и работу с html файлом. В &lt;body&gt; стили можно записывать в тегах, но увеличится общий объем файлов и время загрузки браузера увеличится так же. 
 				</div>	
 			</div>
-			<div class="task4"></div>
-			<div class="task5"></div>
-			<div class="task6"></div>
-			<div class="task7"></div>
+			<div class="task4">
+				<div class="title">
+    				Example task #4
+				</div>
+				<div class="text">
+					В браузерах по умолчанию установленны сложные стили, 
+    				Reset CSS Эрика Мейлера сбрасывает отступы и  приводит к единому значению размер и семейство шрифта, выравнивания для текста и другие свойства, элементы формы не трогает. 
+				</div>
+			</div>
+			<div class="task5">
+				<div class="title">
+    				Example task #5
+				</div>
+				<div class="text">
+					Блок, имеющий свойство visibility: hidden или opacity:0 невидим, но он занимает тоже место и размеры, с visibility: hidden мы не можем взаимодействовать с блоком, его свойство наследуется и ребенок может сменить hidden на visible. 
+				</div>
+                <div class="text">                    
+                    overflow: hidden, в сравнении с visibility: hidden и opacity:0, блок можно удалить из потока контента с помощью position: absolute и отрицательного значения top или left, скрывает содержание блока, выходящее за его пределы.    
+                </div>
+			</div>	
+			<div class="task6">
+                <div class="title">
+                    Example task #6
+                </div>
+                <div class="text">
+                    При указании значения padding в процентах, значение считается от ширины родителя элемента. Второй блок получит padding-top, padding-left, padding-right и padding-bottom в размере 50% от ширины первого блока - родителя.
+                </div>
+                <div class="box">
+                    <div class="block1-start">
+                         <div class="block2-start">start</div>
+                    </div>
+                    <div class="block1-finish">
+                         <div class="block2-finish">finish</div>
+                    </div>
+                </div>
+            </div>
+			<div class="task7">
+                <div class="title">
+                    Example task #7
+                </div>
+                <div class="text">
+                    null показывает, что переменная «пустая»: var a = null; if (a === null) {
+                        return 0;
+                    }. console.log(typeof a); // object
+                </div>
+                <div class="text">
+                    undefind обычно означает, что переменная объявлена, но не имеет присвоенного значения: var a; 
+                    if (a === undefined) {
+                        // эти инструкции будут выполнены
+                    }. console.log(typeof a); // undefined
+                </div>
+            </div>
 			<div class="task8"></div>
 		</div>
 	</div>
