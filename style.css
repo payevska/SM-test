@@ -85,3 +85,74 @@
 .task6 .text {
     margin-bottom: 50px;
 }
+
+
+
+.slider {
+  position: relative;
+}
+.carousel {
+  position: relative;
+}
+
+.carousel img {
+ width: 100%;
+  /* делаем этот элемент блочным, чтобы убрать лишнее пространство вокруг картинок */
+  display: block;
+  height: auto;
+}
+
+.arrow {
+  position: absolute;
+  top: 60px;
+  padding: 0;
+  background: #ddd;
+  border-radius: 15px;
+  border: 1px solid gray;
+  font-size: 24px;
+  line-height: 24px;
+  color: #444;
+  display: block;
+}
+
+.arrow:focus {
+  outline: none;
+}
+
+.arrow:hover {
+  background: #ccc;
+  cursor: pointer;
+}
+
+.prev {
+  left: 40px;
+}
+
+.next {
+  right: 40px;
+}
+
+.gallery {
+    min-height: 100vh;
+  overflow: hidden;
+}
+
+.gallery ul {
+  max-height: 100vh;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  transition: margin-left 250ms;
+  /* удаляем пустое пространство между элементами li, у которых установлен inline-block */
+  /* http://davidwalsh.name/remove-whitespace-inline-block */
+  font-size: 0;
+}
+
+.gallery li {
+  display: inline-block;
+  overflow: hidden;
+  min-width: 100vw;
+}
+button {
+    z-index: 3;
+}
